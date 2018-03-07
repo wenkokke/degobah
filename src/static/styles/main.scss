@@ -3,3 +3,19 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
 
 // can add Boostrap overrides, additional Sass/CSS below...
+svg {
+    border: 0;
+    display: block;
+    width: 600px;
+    overflow: hidden;
+    width: 600px;
+    height: 570px;
+}
+
+polygon {
+    stroke: black;
+}
+
+g {
+    cursor: pointer;
+}

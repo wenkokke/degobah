@@ -10,12 +10,12 @@ use rocket::response::NamedFile;
 
 #[get("/")]
 fn index() -> Option<NamedFile> {
-  NamedFile::open(Path::new("static/main.html")).ok()
+  NamedFile::open(Path::new("_build/index.html")).ok()
 }
 
 #[get("/<file..>")]
 fn files(file: PathBuf) -> Option<NamedFile> {
-  NamedFile::open(Path::new("static/").join(file)).ok()
+  NamedFile::open(Path::new("_build/").join(file)).ok()
 }
 
 fn main() {

@@ -1,12 +1,12 @@
 module Main exposing (..)
 
 import Dict
-import HexGrid exposing (Direction(..), HexGrid(..))
 import Html exposing (Html, a, div, h1, hr, small)
 import String
 import Svg exposing (Svg, g, polygon, text, text_)
 import Svg.Attributes as Sattr exposing (fill, points, stroke, x, y)
 import Svg.Events as Sevent exposing (onClick, onMouseOver)
+import HexGrid exposing (Direction(..), HexGrid(..))
 
 type alias Model =
     { grid        : HexGrid ()
