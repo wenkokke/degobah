@@ -1,0 +1,3 @@
+[submodule "vendor/elm-hex-grid"]
+	path = vendor/elm-hex-grid
+	url = https://github.com/danneu/elm-hex-grid
