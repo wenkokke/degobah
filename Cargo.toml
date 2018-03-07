@@ -1,0 +1,13 @@
+[package]
+name = "degobah"
+version = "0.1.0"
+authors = ["Wen Kokke <wen.kokke@gmail.com>"]
+
+[[bin]]
+name = "degobah"
+path = "src/rs/main.rs"
+
+[dependencies]
+rocket = "0.3.6"
+rocket_codegen = "0.3.6"
+maud = { version = "*", features = ["rocket"] }
